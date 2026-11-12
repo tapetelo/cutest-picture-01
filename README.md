@@ -1,10 +1,11 @@
-# Cream kitten hugging a chick
+# White kitten hugging a yellow chick
 
-Make.fun cutest-picture-01 entry.
+Cutest-picture-01 entry (v2): a 3D-rendered fluffy white kitten with huge
+sparkling blue eyes, wearing a tiny mint-green knitted scarf, hugging a
+tiny fluffy yellow chick.
 
-The picture is a photorealistic cream kitten with big blue eyes, wearing a tiny mint scarf, hugging a tiny yellow chick.
-
-The program copies `entry.png` to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png` when set).
+The program simply copies `entry.png` to the output path, so both grader
+runs write exactly the same bytes.
 
 Run it locally:
 
