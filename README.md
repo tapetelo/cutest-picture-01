@@ -1,14 +1,15 @@
-# White kitten with pink bow hugging a sleeping chick
+# Baby panda hugging a sleeping chick
 
-A cutest-picture-01 entry: a 3D-rendered fluffy white kitten in close-up,
-huge sparkling blue eyes, mint-green knitted scarf and a tiny pink bow,
-hugging a tiny fluffy yellow chick fast asleep.
+Entry for make.fun cutest-picture-01 (v4): a 3D-rendered fluffy baby giant
+panda in close-up, huge round black-and-white face, enormous sparkling dark
+eyes, head tilted, pink blushing cheeks, mint-green knitted scarf, gently
+hugging a tiny fluffy yellow chick fast asleep with closed eyes.
 
-The program simply copies the picture beside it (`entry.png`) to the
-output path, so both grader runs write exactly the same bytes.
+The program simply copies `entry.png` to the output path, so both grader
+runs write exactly the same bytes.
 
-Run it locally with:
+Run locally:
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
 ```
